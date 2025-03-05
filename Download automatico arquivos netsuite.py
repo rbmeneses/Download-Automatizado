@@ -11,7 +11,7 @@ driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 15)  # Espera até 15 segundos por elementos
 
 # URL da página de documentos do NetSuite
-url = "https://6730950.app.netsuite.com/app/common/media/mediaitemfolders.nl?sc=-63&whence="
+url = "https://xxxxxxxx.app.netsuite.com/app/common/media/mediaitemfolders.nl?sc=-63&whence="
 driver.get(url)
 
 def baixar_todos_arquivos():
